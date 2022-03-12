@@ -13,9 +13,10 @@ const Hero = (props) => (
           Marijuana Shop - Frankfurt
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        The purpose of Marijuana.gmbh is to help aspiring and established people to take their skills to the next level and build awesome thinks.
+        you can order from www.foodpanda.de
         </SectionText>
-        <Button onClick={props.handleClick}>Shop Online</Button>
+        <Button onClick={() => window.location = 'https://foodpanda.de'}>Shop Online</Button>
       </LeftSection>
     </Section>
   </>
