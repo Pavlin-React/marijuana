@@ -71,7 +71,7 @@ const Timeline = () => {
         began in 2022 when we open our first Cigarette shop in Frankfurt. Today
         We are selling more than 50 kinds of marijuanas. Relax with Us
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -124,7 +124,7 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer>
+      </CarouselContainer> */}
       <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
