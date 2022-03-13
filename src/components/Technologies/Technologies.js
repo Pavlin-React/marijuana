@@ -3,15 +3,16 @@ import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Discounts</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Don’t miss our Monday Sale! ⏳ Grab all the hats you like for you
+      and your friends and enjoy a 20% discount sitewide plus an additional 10%
+      off select brands
     </SectionText>
-    <List>
+    {/* <List>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
@@ -19,7 +20,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
+            Experience with <br />
             React.js
           </ListParagraph>
         </ListContainer>
@@ -48,7 +49,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-    </List>
+    </List> */}
     <SectionDivider colorAlt />
   </Section>
 );
